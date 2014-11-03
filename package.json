@@ -1,15 +1,26 @@
 {
-  "name": "node-red-contrib-elasticsearch",
-  "version": "1.0.0",
-  "description": "Writes a message to elasticsearch",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "elasticsearch",
-    "node-red"
-  ],
-  "author": "Benedikt Arnold",
-  "license": "BSD"
+    "author": "Benedikt Arnold",
+    "dependencies": {
+        "elasticsearch": "^2.4.3"
+    },
+    "description": "Writes a message to elasticsearch",
+    "devDependencies": {
+        "grunt": "^0.4.5"
+    },
+    "keywords": [
+        "elasticsearch",
+        "node-red"
+    ],
+    "license": "BSD",
+    "main": "index.js",
+    "name": "node-red-contrib-elasticsearch",
+    "node-red": {
+        "nodes": {
+            "elasticsearch": "elasticsearch.js"
+        }
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "version": "1.0.0"
 }
