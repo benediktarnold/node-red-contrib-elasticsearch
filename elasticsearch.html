@@ -13,7 +13,10 @@
         <label for="node-input-index"><i class="icon-book"></i> Index</label>
         <input type="text" id="node-input-index" placeholder="node-red-index" />
     </div>
-
+    <div class="form-row">
+        <label for="node-input-documenttype"><i class="icon-book"></i> Type</label>
+        <input type="text" id="node-input-documenttype" placeholder="node-red-type" />
+    </div>
 </script>
 
 <script type="text/x-red" data-help-name="elasticsearch">
@@ -25,7 +28,7 @@
         category: 'output',
         defaults: {
             index: {value:"node-red-index"},
-            //type: {value:""},
+            documenttype: {value:"node-red-type"},
             host: {value:"localhost",required:true},
             port: {value:9200,required:true,validate:RED.validators.number()}
         },

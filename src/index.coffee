@@ -8,9 +8,10 @@ module.exports = (RED)->
 				host: config.host+":"+config.port
 				apiVersion: '1.3'
 				log: 'trace'
+			console.log config
 			es.create
 				index: config.index
-				type: "bla"
+				type: config.documenttype
 				body: msg
 			, (error, response) ->
 				if (error)
