@@ -15,7 +15,7 @@
     "elasticsearch",
     "node-red"
   ],
-  "license": "BSD",
+  "license": "MIT",
   "main": "build/elasticsearch.js",
   "name": "node-red-contrib-elasticsearch",
   "node-red": {
