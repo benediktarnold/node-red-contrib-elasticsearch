@@ -8,7 +8,6 @@ module.exports = (RED)->
 				host: config.host+":"+config.port
 				apiVersion: '1.3'
 				log: 'error'
-			console.log config
 			es.create
 				index: config.index
 				type: config.documenttype
