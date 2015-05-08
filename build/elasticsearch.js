@@ -17,7 +17,6 @@
           apiVersion: '1.3',
           log: 'error'
         });
-        console.log(config);
         return es.create({
           index: config.index,
           type: config.documenttype,
