@@ -7,7 +7,7 @@ module.exports = (RED)->
 			es = new elasticsearch.Client
 				host: config.host+":"+config.port
 				apiVersion: '1.3'
-				log: 'trace'
+				log: 'error'
 			console.log config
 			es.create
 				index: config.index
