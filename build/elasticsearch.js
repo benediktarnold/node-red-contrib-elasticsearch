@@ -15,7 +15,7 @@
         es = new elasticsearch.Client({
           host: config.host + ":" + config.port,
           apiVersion: '1.3',
-          log: 'trace'
+          log: 'error'
         });
         console.log(config);
         return es.create({
