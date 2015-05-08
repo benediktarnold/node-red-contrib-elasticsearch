@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/benediktarnold/node-red-contrib-elasticsearch.svg?branch=master)](https://travis-ci.org/benediktarnold/node-red-contrib-elasticsearch)
+[![Build Status](https://travis-ci.org/yetanotherusera/node-red-contrib-elasticsearch.svg?branch=master)](https://travis-ci.org/yetanotherusera/node-red-contrib-elasticsearch)
 
 #node-red-contrib-elasticsearch
 A node-red node to write messages to elasticsearch
