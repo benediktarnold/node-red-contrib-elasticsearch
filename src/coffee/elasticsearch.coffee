@@ -16,8 +16,6 @@ module.exports = (RED)->
 			, (error, response) ->
 				if (error)
 					node.error error, response
-				else
-					node.warn "written to elasticsearch"
 				es.close
 
 	RED.nodes.registerType("elasticsearch",ElasticsearchNode);
