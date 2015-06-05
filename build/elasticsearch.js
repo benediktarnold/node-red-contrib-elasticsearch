@@ -23,8 +23,6 @@ module.exports = function(RED) {
       }, function(error, response) {
         if (error) {
           node.error(error, response);
-        } else {
-          node.warn("written to elasticsearch");
         }
         return es.close;
       });
