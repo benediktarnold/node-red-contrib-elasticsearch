@@ -16,3 +16,7 @@ Run the following command in the root directory of your Node-RED install
 	- add an input for index name
 	- add an input for document type
 	- and an ouput with error if any, doc id, status of ES after operation ... etc
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/yetanotherusera/node-red-contrib-elasticsearch/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
