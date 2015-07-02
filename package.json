@@ -26,5 +26,6 @@
   "scripts": {
     "test": "grunt"
   },
-  "version": "0.0.2"
+  "version": "0.0.2",
+  "repository": "https://github.com/benediktarnold/node-red-contrib-elasticsearch.git",
 }
