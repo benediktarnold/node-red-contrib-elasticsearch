@@ -19,7 +19,7 @@ module.exports = function(RED) {
       return es.create({
         index: config.index,
         type: config.documenttype,
-        body: msg
+        body: msg.payload
       }, function(error, response) {
         if (error) {
           node.error(error, response);
