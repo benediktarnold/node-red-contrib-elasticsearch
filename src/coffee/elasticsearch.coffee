@@ -12,7 +12,7 @@ module.exports = (RED)->
 			es.create
 				index: config.index
 				type: config.documenttype
-				body: msg
+				body: msg.payload
 			, (error, response) ->
 				if (error)
 					node.error error, response
