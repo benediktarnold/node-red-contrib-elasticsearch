@@ -15,6 +15,6 @@ module.exports = (RED)->
 			, (error, response) ->
 				if (error)
 					node.error error, response
-				es.close
+				es.close()
 
 	RED.nodes.registerType("elasticsearch",ElasticsearchNode);

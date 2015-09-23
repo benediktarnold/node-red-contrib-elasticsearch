@@ -23,7 +23,7 @@ module.exports = function(RED) {
         if (error) {
           node.error(error, response);
         }
-        return es.close;
+        return es.close();
       });
     });
   };
